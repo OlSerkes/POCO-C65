@@ -304,6 +304,7 @@ li
                 text-align: center
         &_ml
             margin-left: 250px
+            margin-right: 10px
     &__text-header
         h2
             margin: 0
@@ -679,6 +680,7 @@ li
     #maincontent .poco-sensor
         &__text
             margin: 0 220px
+
 @media screen and (max-width: 1250.98px)
     #maincontent .poco-table
         &__item-text_01
@@ -745,6 +747,7 @@ li
         &__text
             top: 55px
             margin: 0 150px
+
 @media screen and (max-width: 1100.98px)
     #maincontent .top-box
         &__content
@@ -804,6 +807,7 @@ li
         &__text
             top: 45px
             margin: 0 125px
+
 @media screen and (max-width: 1040.98px)
     #maincontent .poco-box
         &__text
@@ -818,6 +822,7 @@ li
     #maincontent .poco-sensor
         &__text
             margin: 0 125px
+
 @media screen and (max-width: 1024.98px)
     #maincontent .top-box
         &__content
@@ -888,6 +893,7 @@ li
         &__text
             top: 45px
             margin: 0 100px
+
 @media screen and (max-width: 991.98px)
     #maincontent .top-box
         &__content
@@ -986,6 +992,7 @@ li
     #maincontent .poco-storage
         &__bg
             padding-top: 100px
+
 @media screen and (max-width: 850.98px)
     #maincontent .poco-table
         &__inner
@@ -1061,10 +1068,11 @@ li
             &_line
                 &::after
                     height: 250px
+
 @media screen and (max-width: 767.98px)
     #maincontent .top-box
         &__content
-            position: unset
+            position: static
             transform: translateY(0)
             width: auto
             padding: 20px 10px
@@ -1084,8 +1092,16 @@ li
             padding-bottom: 180px
         &__item-wrapper
             flex-direction: column
+        &__item-inner
+            max-width: 573px
+            margin: 0 auto
         &__inner
             padding: 10px 40px
+        &__item
+            max-width: 573px
+            margin: 0 auto
+            &_01
+                margin-bottom: 20px
         &__item-text
             &_01
                 top: 50px
@@ -1119,7 +1135,7 @@ li
                     margin-bottom: 15px
     #maincontent .poco-safety
         &__content
-            position: unset
+            position: static
             transform: translateY(0)
             max-width: 100%
             img
@@ -1155,14 +1171,12 @@ li
             padding: 10px 20px 10px 30px
         &__media-text
             padding: 10px 20px
-
     #maincontent .poco-row
         &__inner
             flex-direction: column
             padding: 20px 25px
         &__item
             margin: 0 0 20px
-
     #maincontent .poco-performance
         &__inner
             padding-top: 150px
@@ -1281,7 +1295,7 @@ li
         &__inner
             padding-bottom: 0
         &__content
-            position: unset
+            position: static
             transform: translateY(0)
             padding: 40px 50px 0px
             max-width: 100%
@@ -1300,7 +1314,7 @@ li
             display: flex
             flex-direction: column-reverse
         &__media-content
-            position: unset
+            position: static
             flex-direction: column
             align-items: flex-start
             h4, p
@@ -1363,7 +1377,7 @@ li
                 p
                     margin-bottom: 18px
             &_04
-                position: unset
+                position: static
                 transform: translateY(0)
                 h4, p
                     text-align: center
@@ -1560,8 +1574,6 @@ li
         &__card-item
             h3
                 font-size: 10px
-        // &__subtitle
-        //     padding: 30px 10px 10px
 
 @media screen and (max-width: 430.98px)
     #maincontent .poco-camera

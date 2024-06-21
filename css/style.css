@@ -367,6 +367,7 @@ li {
 }
 #maincontent .poco-box__text_ml {
   margin-left: 250px;
+  margin-right: 10px;
 }
 #maincontent .poco-box__text-header h2 {
   margin: 0;
@@ -1261,7 +1262,7 @@ li {
 }
 @media screen and (max-width: 767.98px) {
   #maincontent .top-box__content {
-    position: unset;
+    position: static;
     transform: translateY(0);
     width: auto;
     padding: 20px 10px;
@@ -1285,8 +1286,19 @@ li {
   #maincontent .poco-table__item-wrapper {
     flex-direction: column;
   }
+  #maincontent .poco-table__item-inner {
+    max-width: 573px;
+    margin: 0 auto;
+  }
   #maincontent .poco-table__inner {
     padding: 10px 40px;
+  }
+  #maincontent .poco-table__item {
+    max-width: 573px;
+    margin: 0 auto;
+  }
+  #maincontent .poco-table__item_01 {
+    margin-bottom: 20px;
   }
   #maincontent .poco-table__item-text_01 {
     top: 50px;
@@ -1325,7 +1337,7 @@ li {
     margin-bottom: 15px;
   }
   #maincontent .poco-safety__content {
-    position: unset;
+    position: static;
     transform: translateY(0);
     max-width: 100%;
   }
@@ -1516,7 +1528,7 @@ li {
     padding-bottom: 0;
   }
   #maincontent .black-box__content {
-    position: unset;
+    position: static;
     transform: translateY(0);
     padding: 40px 50px 0px;
     max-width: 100%;
@@ -1536,7 +1548,7 @@ li {
     flex-direction: column-reverse;
   }
   #maincontent .poco-box__media-content {
-    position: unset;
+    position: static;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -1605,7 +1617,7 @@ li {
     margin-bottom: 18px;
   }
   #maincontent .poco-table__item-text_04 {
-    position: unset;
+    position: static;
     transform: translateY(0);
   }
   #maincontent .poco-table__item-text_04 h4, #maincontent .poco-table__item-text_04 p {
