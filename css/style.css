@@ -124,7 +124,7 @@ li {
   content: "";
   position: absolute;
   z-index: 9;
-  background-image: url("../img/logo.png");
+  background-image: url("./img/logo.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -135,7 +135,7 @@ li {
 }
 
 #maincontent .poco-table__bg {
-  background-image: url("../img/bg02_1.png");
+  background-image: url("./img/bg02_1.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -226,7 +226,7 @@ li {
   content: "";
   position: absolute;
   z-index: -1;
-  background-image: url("../img/icon-folder-yel.png");
+  background-image: url("./img/icon-folder-yel.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -455,7 +455,7 @@ li {
   padding-left: 0;
 }
 #maincontent .poco-performance__content-text p span::before {
-  background-image: url("../img/icon-folder-bl.png");
+  background-image: url("./img/icon-folder-bl.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -466,7 +466,7 @@ li {
 }
 
 #maincontent .poco-memory__bg {
-  background-image: url("../img/bg14_1.png");
+  background-image: url("./img/bg14_1.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -564,7 +564,7 @@ li {
   content: "";
   position: absolute;
   z-index: 6;
-  background-image: url("../img/icon16.png");
+  background-image: url("./img/icon16.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -594,7 +594,7 @@ li {
   color: #fff;
 }
 #maincontent .poco-design__content p span::before {
-  background-image: url("../img/icon-folder-bl.png");
+  background-image: url("./img/icon-folder-bl.png");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -633,7 +633,7 @@ li {
 }
 
 #maincontent .poco-slider__bg {
-  background-image: url("../img/bg19_1.jpg");
+  background-image: url("./img/bg19_1.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
