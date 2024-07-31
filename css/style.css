@@ -127,7 +127,9 @@ li {
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
   top: 180px;
   left: 200px;
   width: 270px;
@@ -138,7 +140,9 @@ li {
   background-image: url("../img/bg02_1.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
   width: 100%;
   height: 100%;
 }
@@ -146,10 +150,24 @@ li {
   padding: 100px 250px;
 }
 #maincontent .poco-table__items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 #maincontent .poco-table__item-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
@@ -171,13 +189,19 @@ li {
   top: 50%;
   left: 60px;
   right: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 #maincontent .poco-table__item-text_03 {
   top: 50px;
   left: 50%;
   margin-right: -50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
   max-width: 240px;
 }
 #maincontent .poco-table__item-text_03 p {
@@ -190,7 +214,10 @@ li {
   top: 50%;
   left: 60px;
   right: 60%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 #maincontent .poco-table__item_01 {
   margin-bottom: 20px;
@@ -200,6 +227,9 @@ li {
   position: relative;
   z-index: 6;
   margin-top: -2px;
+  background: -webkit-gradient(linear, left top, right top, from(#ffe010), color-stop(#ffd109), to(#ffcb04));
+  background: -webkit-linear-gradient(left, #ffe010, #ffd109, #ffcb04);
+  background: -o-linear-gradient(left, #ffe010, #ffd109, #ffcb04);
   background: linear-gradient(0.25turn, #ffe010, #ffd109, #ffcb04);
 }
 #maincontent .poco-bg__content {
@@ -208,7 +238,10 @@ li {
   top: 0;
   left: 50%;
   margin-right: -50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
   padding: 50px 250px 150px;
 }
 #maincontent .poco-bg__content h2, #maincontent .poco-bg__content p {
@@ -229,13 +262,18 @@ li {
   background-image: url("../img/icon-folder-yel.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
   width: 157px;
   height: 38px;
   top: 50%;
   left: 0;
   right: 0;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 #maincontent .poco-bg__content-text_01 {
   margin-bottom: 50px;
@@ -255,7 +293,10 @@ li {
   top: 50%;
   left: 0;
   right: 50%;
-  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+       -o-transform: translate(0, -50%);
+          transform: translate(0, -50%);
   margin-right: 0;
   padding: 50px 20px 50px 250px;
 }
@@ -276,7 +317,10 @@ li {
 
 #maincontent .poco-camera__content {
   top: 120px;
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+       -o-transform: translateY(0);
+          transform: translateY(0);
 }
 #maincontent .poco-camera__media {
   position: relative;
@@ -285,9 +329,21 @@ li {
 #maincontent .poco-camera__text {
   position: absolute;
   z-index: 5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   left: 56%;
   right: 15%;
   top: 230px;
@@ -306,7 +362,10 @@ li {
   top: 65px;
   left: 50%;
   margin-right: -50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 1px;
   height: 228px;
   background-color: #fff;
@@ -345,18 +404,38 @@ li {
   color: #fff;
 }
 #maincontent .poco-box__text_flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   max-width: 1000px;
   margin-right: 50px;
 }
 #maincontent .poco-box__text_flex h3 {
-  flex: 0 1 40%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 40%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
   margin-right: 50px;
 }
 #maincontent .poco-box__text_flex p {
-  flex: 0 1 60%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 60%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
 }
 #maincontent .poco-box__text_c {
   margin: 0 auto;
@@ -395,18 +474,38 @@ li {
   left: 0;
   right: 0;
   bottom: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   max-width: 970px;
   margin: 0 auto;
 }
 #maincontent .poco-box__media-header {
-  flex: 0 1 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
   padding: 10px 40px;
 }
 #maincontent .poco-box__media-text {
-  flex: 0 1 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
   padding: 10px 40px;
 }
 
@@ -415,16 +514,38 @@ li {
   margin-top: -2px;
 }
 #maincontent .poco-row__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+     -moz-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 100px 20px 50px 230px;
 }
 #maincontent .poco-row__inner_rev {
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 #maincontent .poco-row__item {
-  flex: 0 1 40%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 40%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
   margin-top: 195px;
   margin-right: 50px;
 }
@@ -436,7 +557,11 @@ li {
   color: #ffad01;
 }
 #maincontent .poco-row__image {
-  flex: 0 1 60%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 60%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
 }
 
 #maincontent .poco-performance__inner {
@@ -458,18 +583,25 @@ li {
   background-image: url("../img/icon-folder-bl.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
   left: 50%;
   top: -57%;
   margin-right: -50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+       -o-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 #maincontent .poco-memory__bg {
   background-image: url("../img/bg14_1.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
   width: 100%;
   height: 100%;
   padding: 100px 0;
@@ -487,6 +619,9 @@ li {
 }
 
 #maincontent .poco-storage__bg {
+  background: -webkit-gradient(linear, left top, right top, from(#1a1a1a), color-stop(#0a0a0a), to(#020202));
+  background: -webkit-linear-gradient(left, #1a1a1a, #0a0a0a, #020202);
+  background: -o-linear-gradient(left, #1a1a1a, #0a0a0a, #020202);
   background: linear-gradient(0.25turn, #1a1a1a, #0a0a0a, #020202);
   padding-top: 0;
   position: relative;
@@ -500,14 +635,26 @@ li {
   left: 0;
   right: 0;
   margin: 0 250px;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #maincontent .poco-storage__text p {
   padding: 15px 20px;
-  flex: 0 1 40%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 40%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
 }
 #maincontent .poco-storage__text-header {
-  flex: 0 1 60%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 60%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
   padding: 0 20px;
 }
 #maincontent .poco-storage__img {
@@ -529,28 +676,56 @@ li {
   top: 10px;
 }
 #maincontent .poco-battery__text-header {
-  flex: 0 1 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
   margin-right: 120px;
 }
 #maincontent .poco-battery__text-content {
-  flex: 0 1 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
 }
 #maincontent .poco-battery__text-content h4, #maincontent .poco-battery__text-content p {
   color: #fff;
 }
 #maincontent .poco-battery__text-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
 }
 #maincontent .poco-battery__items {
   width: 200px;
 }
 #maincontent .poco-battery__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #maincontent .poco-battery__item-num {
-  flex: 0 1 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
   position: relative;
   z-index: 5;
 }
@@ -567,20 +742,32 @@ li {
   background-image: url("../img/icon16.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
   width: 40px;
   height: 38px;
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 #maincontent .poco-battery__item-text {
-  flex: 0 1 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
   padding: 10px;
 }
 
 #maincontent .poco-design__inner {
+  background: -webkit-gradient(linear, left top, right top, from(#ccd4ea), color-stop(#b4bed8), to(#8e98b7));
+  background: -webkit-linear-gradient(left, #ccd4ea, #b4bed8, #8e98b7);
+  background: -o-linear-gradient(left, #ccd4ea, #b4bed8, #8e98b7);
   background: linear-gradient(0.25turn, #ccd4ea, #b4bed8, #8e98b7);
 }
 #maincontent .poco-design__content {
@@ -597,10 +784,15 @@ li {
   background-image: url("../img/icon-folder-bl.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
 }
 
 #maincontent .poco-sensor__bg {
+  background: -webkit-gradient(linear, left top, right top, from(#4c5783), color-stop(#46517d), to(#424d7a));
+  background: -webkit-linear-gradient(left, #4c5783, #46517d, #424d7a);
+  background: -o-linear-gradient(left, #4c5783, #46517d, #424d7a);
   background: linear-gradient(0.25turn, #4c5783, #46517d, #424d7a);
   padding-top: 0;
   position: relative;
@@ -614,14 +806,26 @@ li {
   left: 0;
   right: 0;
   margin: 0 250px;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #maincontent .poco-sensor__text p {
   padding: 15px 20px;
-  flex: 0 1 40%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 40%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
 }
 #maincontent .poco-sensor__text-header {
-  flex: 0 1 60%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 60%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 60%;
+          flex: 0 1 60%;
   padding: 0 20px;
 }
 #maincontent .poco-sensor__text-header h2:nth-child(1) {
@@ -636,7 +840,9 @@ li {
   background-image: url("../img/bg19_1.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
   margin-top: -2px;
 }
 #maincontent .poco-slider__inner {
@@ -664,7 +870,10 @@ li {
   background: #4c5783;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 #maincontent .poco-slider__card-text {
   position: absolute;
@@ -672,7 +881,10 @@ li {
   top: 50%;
   left: 0;
   right: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
   max-width: 390px;
   padding: 0px 60px;
 }
@@ -682,15 +894,34 @@ li {
   top: 50%;
   left: 0;
   right: 0;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px 30px;
 }
 #maincontent .poco-slider__card-item {
   padding: 0 30px;
-  flex: 0 1 50%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+     -moz-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
 }
 #maincontent .poco-slider__card-item img {
   margin: 0 auto 30px;
@@ -715,35 +946,44 @@ li {
 
 @media screen and (max-width: 1400px) {
   #maincontent .maincontent__container h2 {
+    font-size: -webkit-calc(24px + 18 * (100vw - 320px) / 1080);
     font-size: calc(24px + 18 * (100vw - 320px) / 1080);
   }
   #maincontent .maincontent__container h3 {
+    font-size: -webkit-calc(20px + 10 * (100vw - 320px) / 1080);
     font-size: calc(20px + 10 * (100vw - 320px) / 1080);
   }
   #maincontent .maincontent__container h4 {
+    font-size: -webkit-calc(17px + 6 * (100vw - 320px) / 1080);
     font-size: calc(17px + 6 * (100vw - 320px) / 1080);
   }
   #maincontent .maincontent__container p {
+    font-size: -webkit-calc(14px + 2 * (100vw - 320px) / 1080);
     font-size: calc(14px + 2 * (100vw - 320px) / 1080);
   }
   #maincontent .top-box__content {
     top: 200px;
+    left: -webkit-calc(20px + 130 * (100vw - 320px) / 1080);
     left: calc(20px + 130 * (100vw - 320px) / 1080);
   }
   #maincontent .top-box__content p {
+    font-size: -webkit-calc(17px + 2 * (100vw - 320px) / 1080);
     font-size: calc(17px + 2 * (100vw - 320px) / 1080);
   }
   #maincontent .top-box__img::before {
     top: 140px;
+    left: -webkit-calc(20px + 130 * (100vw - 320px) / 1080);
     left: calc(20px + 130 * (100vw - 320px) / 1080);
   }
   #maincontent .poco-table__item-text_01, #maincontent .poco-table__item-text_03 {
     top: 35px;
   }
   #maincontent .black-box__content h2 span {
+    font-size: -webkit-calc(26px + 46 * (100vw - 320px) / 1080);
     font-size: calc(26px + 46 * (100vw - 320px) / 1080);
   }
   #maincontent .poco-camera__text p {
+    font-size: -webkit-calc(16px + 5 * (100vw - 320px) / 1080);
     font-size: calc(16px + 5 * (100vw - 320px) / 1080);
   }
   #maincontent .poco-camera__text p::before {
@@ -1072,10 +1312,15 @@ li {
 @media screen and (max-width: 991.98px) {
   #maincontent .top-box__content {
     top: 50%;
+    left: -webkit-calc(20px + 30 * (100vw - 320px) / 672);
     left: calc(20px + 30 * (100vw - 320px) / 672);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   #maincontent .top-box__img::before {
+    left: -webkit-calc(20px + 30 * (100vw - 320px) / 672);
     left: calc(20px + 30 * (100vw - 320px) / 672);
   }
   #maincontent .poco-table__inner {
@@ -1263,7 +1508,10 @@ li {
 @media screen and (max-width: 767.98px) {
   #maincontent .top-box__content {
     position: static;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
     width: auto;
     padding: 20px 10px;
   }
@@ -1284,7 +1532,13 @@ li {
     padding-bottom: 180px;
   }
   #maincontent .poco-table__item-wrapper {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #maincontent .poco-table__item-inner {
     max-width: 573px;
@@ -1308,7 +1562,10 @@ li {
     top: 50px;
     left: 50px;
     margin-right: 0;
-    transform: translateX(0);
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+         -o-transform: translateX(0);
+            transform: translateX(0);
   }
   #maincontent .poco-table__item-img img {
     margin: 0 auto;
@@ -1338,7 +1595,10 @@ li {
   }
   #maincontent .poco-safety__content {
     position: static;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
     max-width: 100%;
   }
   #maincontent .poco-safety__content img {
@@ -1365,7 +1625,13 @@ li {
     margin: 0 20px 30px 40px;
   }
   #maincontent .poco-box__text_flex {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   #maincontent .poco-box__text_flex h3 {
     margin-right: 0;
@@ -1385,7 +1651,13 @@ li {
     padding: 10px 20px;
   }
   #maincontent .poco-row__inner {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 20px 25px;
   }
   #maincontent .poco-row__item {
@@ -1438,7 +1710,11 @@ li {
     text-align: center;
   }
   #maincontent .poco-battery__text-items {
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #maincontent .poco-battery__item-text p {
     text-align: left;
@@ -1529,11 +1805,17 @@ li {
   }
   #maincontent .black-box__content {
     position: static;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
     padding: 40px 50px 0px;
     max-width: 100%;
   }
   #maincontent .poco-camera__content {
+    background: -webkit-gradient(linear, left top, right top, from(#414246), color-stop(#2f2f2f), to(#292929));
+    background: -webkit-linear-gradient(left, #414246, #2f2f2f, #292929);
+    background: -o-linear-gradient(left, #414246, #2f2f2f, #292929);
     background: linear-gradient(0.25turn, #414246, #2f2f2f, #292929);
     padding-bottom: 15px;
   }
@@ -1544,13 +1826,33 @@ li {
     margin: 10px 0;
   }
   #maincontent .poco-box__media {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+       -moz-box-orient: vertical;
+       -moz-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
   #maincontent .poco-box__media-content {
     position: static;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   #maincontent .poco-box__media-content h4, #maincontent .poco-box__media-content p {
     color: #fff;
@@ -1618,7 +1920,10 @@ li {
   }
   #maincontent .poco-table__item-text_04 {
     position: static;
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
   }
   #maincontent .poco-table__item-text_04 h4, #maincontent .poco-table__item-text_04 p {
     text-align: center;
@@ -1715,8 +2020,18 @@ li {
     padding: 10px 0px;
   }
   #maincontent .poco-table__item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+       -moz-box-orient: vertical;
+       -moz-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin-bottom: 0;
   }
   #maincontent .poco-table__item-wrapper {
@@ -1731,7 +2046,10 @@ li {
     color: #fff;
   }
   #maincontent .poco-table__item-text_02 {
-    transform: translateY(0);
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
   }
   #maincontent .poco-table__item-text_03 {
     margin-bottom: 10px;
@@ -1788,7 +2106,13 @@ li {
     padding: 0;
   }
   #maincontent .poco-row__inner {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 10px 5px;
   }
   #maincontent .poco-performance__inner {
@@ -1837,7 +2161,13 @@ li {
 }
 @media screen and (max-width: 430.98px) {
   #maincontent .poco-camera__text {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 0 25px;
     left: 0;
   }
